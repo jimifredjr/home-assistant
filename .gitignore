@@ -1,0 +1,18 @@
+# Local credentials
+**/secrets.yaml
+**/secrets.yaml.*
+**/.env
+**/.env.*
+!**/.env.example
+
+# ESPHome build and cache artifacts
+**/.esphome/
+**/build/
+
+# Home Assistant runtime data and backups
+**/.storage/
+*.db
+*.db-*
+*.log
+*.backup
+*.tar
